@@ -1,0 +1,47 @@
+// Import Fonts
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+
+// Import Variables
+@import "./variables";
+
+
+// Code
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: $black;
+    font-family: Sora;
+
+    scrollbar-width: thin;
+    scrollbar-color: $sidebar-color transparent;
+}
+
+*::webkit-scrollbar{
+    width: 5px;
+}
+
+*::webkit-scrollbar-track{
+    background: transparent;
+}
+
+*::webkit-scrollbar-thumb{
+    background-color: $sidebar-color;
+    border-radius: 20px;
+    border: transparent;
+}
+
+.App{
+    transition: 0.5s all ease;
+}
+
+.library-open{
+    margin-left: 30%;
+}
+
+// Import Partials
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";

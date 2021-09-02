@@ -1,0 +1,42 @@
+nav{
+    min-height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+
+    button{
+        cursor: pointer;
+        font-size: 1rem;
+        background: white;
+        color: $black;
+        border: 2px solid $black;
+        padding: 0.5em;
+        transition: 0.2s all ease;
+
+        svg{
+            filter: brightness(1);
+            transition: 0.2s all ease;
+        }
+
+        &:hover{
+            background: $black;
+            color: white;
+
+            svg{
+                filter: brightness(10);
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    nav{
+        justify-content: space-between;
+        button{
+            position: relative;
+            z-index: 100;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.song-component{
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 300px;
+        border-radius: 100%;
+        margin-top: 1rem;
+    }
+
+    h1{
+        padding: 2rem 1rem 0.5rem 1rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .song-component{
+        img{
+            width: 60%;
+        }
+
+    }
+}
