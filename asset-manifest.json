@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ShubhamGupta-tch/waves/static/css/main.f412081a.chunk.css",
+    "main.js": "/ShubhamGupta-tch/waves/static/js/main.b2440045.chunk.js",
+    "main.js.map": "/ShubhamGupta-tch/waves/static/js/main.b2440045.chunk.js.map",
+    "runtime-main.js": "/ShubhamGupta-tch/waves/static/js/runtime-main.cf3eeff4.js",
+    "runtime-main.js.map": "/ShubhamGupta-tch/waves/static/js/runtime-main.cf3eeff4.js.map",
+    "static/js/2.beff947a.chunk.js": "/ShubhamGupta-tch/waves/static/js/2.beff947a.chunk.js",
+    "static/js/2.beff947a.chunk.js.map": "/ShubhamGupta-tch/waves/static/js/2.beff947a.chunk.js.map",
+    "static/js/3.d50f740c.chunk.js": "/ShubhamGupta-tch/waves/static/js/3.d50f740c.chunk.js",
+    "static/js/3.d50f740c.chunk.js.map": "/ShubhamGupta-tch/waves/static/js/3.d50f740c.chunk.js.map",
+    "index.html": "/ShubhamGupta-tch/waves/index.html",
+    "static/css/main.f412081a.chunk.css.map": "/ShubhamGupta-tch/waves/static/css/main.f412081a.chunk.css.map",
+    "static/js/2.beff947a.chunk.js.LICENSE.txt": "/ShubhamGupta-tch/waves/static/js/2.beff947a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf3eeff4.js",
+    "static/js/2.beff947a.chunk.js",
+    "static/css/main.f412081a.chunk.css",
+    "static/js/main.b2440045.chunk.js"
+  ]
+}
