@@ -5,6 +5,12 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 1rem;
+
+	
+}
+
+.controls path{
+	color: var(--text) !important;
 }
 
 .time-display{
@@ -20,6 +26,7 @@
 
     p{
         padding: 1rem;
+		color: var(--text);
     }
 }
 

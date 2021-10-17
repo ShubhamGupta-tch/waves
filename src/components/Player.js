@@ -72,7 +72,7 @@ const Player = ({playSong, currentSong, play, setPlay, audioRef, songs, setCurre
                 </div>
 
                 <div className="controls">
-                    <FontAwesomeIcon onClick={() => skipSongHandler(-1)} icon={faAngleLeft} size="2x"/>
+                    <FontAwesomeIcon className="player_icon" onClick={() => skipSongHandler(-1)} icon={faAngleLeft} size="2x"/>
                     <FontAwesomeIcon onClick={playPauseHandler} icon={play ? faPause : faPlay} size="2x"/>
                     <FontAwesomeIcon onClick={() => skipSongHandler(1)} icon={faAngleRight} size="2x"/>
                 </div>

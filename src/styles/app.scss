@@ -7,15 +7,19 @@
 
 // Code
 
+html{
+	background-color: var(--background);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: $black;
     font-family: Sora;
-
     scrollbar-width: thin;
     scrollbar-color: $sidebar-color transparent;
+	//background-color: var(--background);
 }
 
 *::webkit-scrollbar{
@@ -39,6 +43,8 @@
 .library-open{
     margin-left: 30%;
 }
+
+
 
 // Import Partials
 @import "./player";

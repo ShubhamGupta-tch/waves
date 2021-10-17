@@ -21,13 +21,25 @@ nav{
 
         &:hover{
             background: $black;
-            color: white;
-
+			color: white;
             svg{
                 filter: brightness(10);
             }
         }
     }
+	.react-toggle-track-check{
+		margin-top: 12px;
+		margin-left: 0px;
+		left: 3px;
+	}
+	.react-toggle-track-x{
+		margin-top: 12px;
+		margin-right: 5px;
+
+	}
+}
+nav h1{
+	color: var(--text);
 }
 
 
