@@ -1,11 +1,12 @@
 // Import Functionality
-import {useState, useRef} from 'react';
+import {useState, useRef,useEffect} from 'react';
 
 // Import Components
 import Song from "./components/Song";
 import Player from "./components/Player";
 import Library from "./components/Library";
 import Nav from "./components/Nav";
+import {keepTheme} from "./theme"
 
 // Import Data
 import chillHop from "./data";
@@ -16,11 +17,17 @@ function App() {
   const [currentSong, setCurrentSong] = useState(songs[0]);
   const [libraryOpen, setLibraryOpen] = useState(false);
 
+
   // Current Playing song is playing or not
   const [play, setPlay] = useState(false);
 
   // Refs
   const audioRef = useRef(null); // Current Playing Audio
+
+	useEffect(() => {
+		keepTheme()
+
+	},[])
 
   // playSong Function
   function playSong(song){
